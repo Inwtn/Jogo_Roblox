@@ -28,6 +28,7 @@ local function part(parent, name, size, position, color, material)
 	item.Parent = parent
 	return item
 end
+
 local function sign(parent, name, text, size, position, face, color)
 	local board = part(parent, name, size, position, DARK_WOOD, Enum.Material.Wood)
 	local surface = Instance.new("SurfaceGui")

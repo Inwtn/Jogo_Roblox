@@ -26,7 +26,6 @@ local function create(className, parent, properties)
 	object.Parent = parent
 	return object
 end
-
 local function round(object)
 	create("UICorner", object, { CornerRadius = UDim.new(0, 9) })
 end
